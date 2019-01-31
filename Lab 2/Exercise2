@@ -1,1 +1,39 @@
+#include "pch.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
+int main()
+{
+	string bookTitle, author;
+	int publishYr, pgTotal;
+	constexpr int _2019 = 2019;
+	
+	cout << "Enter a book title: \n"; 
+	//getline(cin, bookTitle);
+	cin >> bookTitle;
+	
+	cout << "Enter the book's author's name: \n";
+	//getline(cin, author);
+	cin >> author;
+
+	cout << "Enter the book's year of publishing: \n";
+	cin >> publishYr;
+
+	cout << "Enter the book's total number of pages: \n";
+	cin >> pgTotal;
+
+	{if (_2019 - publishYr <= 10)
+		cout << "This book is younger than 10 years old. \n";
+	else
+		cout << "This book is at least 10 years old. \n";
+	}
+
+	{if (pgTotal <= 100)
+		cout << "This book is a short book. \n";
+	else if (101 <= pgTotal <= 300)
+		cout << "This book is an average book. \n";
+	else (pgTotal > 300);
+		cout << "This book is a long book. \n";
+	}
+}
