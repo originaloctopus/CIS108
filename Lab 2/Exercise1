@@ -17,7 +17,7 @@ int main()
 	cout << "Right now you may be " << age << ", but in 10 years you'll be: " 
 		<< agePlus << ". \n";
 	
-	cout << "What's the current temperature in Fahrenheit?";
+	cout << "What's the current temperature in Fahrenheit? ";
 	cin >> tempF;
 
 	tempC = ((tempF - 32)*(5 / 9));
