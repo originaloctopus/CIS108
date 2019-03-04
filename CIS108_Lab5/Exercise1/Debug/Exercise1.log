@@ -1,0 +1,8 @@
+﻿  MusicDB.cpp
+c:\users\jerem\source\repos\cis108_labs_and_homework\lab4\cis108_lab5\exercise1\song.h(9): error C3646: 'track': unknown override specifier
+c:\users\jerem\source\repos\cis108_labs_and_homework\lab4\cis108_lab5\exercise1\song.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jerem\source\repos\cis108_labs_and_homework\lab4\cis108_lab5\exercise1\song.h(10): error C3646: 'year': unknown override specifier
+c:\users\jerem\source\repos\cis108_labs_and_homework\lab4\cis108_lab5\exercise1\song.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jerem\source\repos\cis108_labs_and_homework\lab4\cis108_lab5\exercise1\song.h(23): warning C4091: 'typedef ': ignored on left of 'music::Song' when no variable is declared
+c:\users\jerem\source\repos\cis108_labs_and_homework\lab4\cis108_lab5\exercise1\musicdb.cpp(23): error C2374: 'MusicDatabase': redefinition; multiple initialization
+  c:\users\jerem\source\repos\cis108_labs_and_homework\lab4\cis108_lab5\exercise1\musicdb.cpp(19): note: see declaration of 'MusicDatabase'
